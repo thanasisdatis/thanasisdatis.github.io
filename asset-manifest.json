@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/uth_verion_0.2/static/css/main.bd29e70d.chunk.css",
-    "main.js": "/uth_verion_0.2/static/js/main.a8df6b8d.chunk.js",
-    "main.js.map": "/uth_verion_0.2/static/js/main.a8df6b8d.chunk.js.map",
-    "runtime-main.js": "/uth_verion_0.2/static/js/runtime-main.63b6e6d8.js",
-    "runtime-main.js.map": "/uth_verion_0.2/static/js/runtime-main.63b6e6d8.js.map",
-    "static/css/2.d344b5ea.chunk.css": "/uth_verion_0.2/static/css/2.d344b5ea.chunk.css",
-    "static/js/2.09839dae.chunk.js": "/uth_verion_0.2/static/js/2.09839dae.chunk.js",
-    "static/js/2.09839dae.chunk.js.map": "/uth_verion_0.2/static/js/2.09839dae.chunk.js.map",
-    "index.html": "/uth_verion_0.2/index.html",
-    "static/css/2.d344b5ea.chunk.css.map": "/uth_verion_0.2/static/css/2.d344b5ea.chunk.css.map",
-    "static/css/main.bd29e70d.chunk.css.map": "/uth_verion_0.2/static/css/main.bd29e70d.chunk.css.map",
-    "static/js/2.09839dae.chunk.js.LICENSE.txt": "/uth_verion_0.2/static/js/2.09839dae.chunk.js.LICENSE.txt",
-    "static/media/DigitalSystems.4f3a1e60.png": "/uth_verion_0.2/static/media/DigitalSystems.4f3a1e60.png",
-    "static/media/THESSALY.c5ac18b1.svg": "/uth_verion_0.2/static/media/THESSALY.c5ac18b1.svg",
-    "static/media/UTH-logo-english.5746d79d.png": "/uth_verion_0.2/static/media/UTH-logo-english.5746d79d.png"
+    "main.css": "/static/css/main.bd29e70d.chunk.css",
+    "main.js": "/static/js/main.d06d4f6d.chunk.js",
+    "main.js.map": "/static/js/main.d06d4f6d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.182ba859.js",
+    "runtime-main.js.map": "/static/js/runtime-main.182ba859.js.map",
+    "static/css/2.d344b5ea.chunk.css": "/static/css/2.d344b5ea.chunk.css",
+    "static/js/2.ef8f554c.chunk.js": "/static/js/2.ef8f554c.chunk.js",
+    "static/js/2.ef8f554c.chunk.js.map": "/static/js/2.ef8f554c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.d344b5ea.chunk.css.map": "/static/css/2.d344b5ea.chunk.css.map",
+    "static/css/main.bd29e70d.chunk.css.map": "/static/css/main.bd29e70d.chunk.css.map",
+    "static/js/2.ef8f554c.chunk.js.LICENSE.txt": "/static/js/2.ef8f554c.chunk.js.LICENSE.txt",
+    "static/media/DigitalSystems.4f3a1e60.png": "/static/media/DigitalSystems.4f3a1e60.png",
+    "static/media/THESSALY.c5ac18b1.svg": "/static/media/THESSALY.c5ac18b1.svg",
+    "static/media/UTH-logo-english.5746d79d.png": "/static/media/UTH-logo-english.5746d79d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.63b6e6d8.js",
+    "static/js/runtime-main.182ba859.js",
     "static/css/2.d344b5ea.chunk.css",
-    "static/js/2.09839dae.chunk.js",
+    "static/js/2.ef8f554c.chunk.js",
     "static/css/main.bd29e70d.chunk.css",
-    "static/js/main.a8df6b8d.chunk.js"
+    "static/js/main.d06d4f6d.chunk.js"
   ]
 }
