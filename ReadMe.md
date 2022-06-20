@@ -1,121 +1,44 @@
-# How to create a truffle project
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-I need to folders in my directory. First folder is the `React folder` that contains the frontend files and the second one is the `Truffle` folder which contains smart contracts.
+## Available Scripts
 
-# Installation
+In the project directory, you can run:
 
-## React App
+### `npm start`
 
-The front end of this application is created by using this template of react-redux in my github account: https://github.com/ThanasisNtatis/React_Redux_Eslint_Template
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-1. Create react app: `npx create-react-app my-app --template redux`
-2. Change react-scripts in packagke.json to `4.0.3`
-3. Set a new path for canisters that scopes to `build/contacts` directory: `"contracts": "file:../build/contracts",`
-4. Install packages: `npm install`
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-Dependencies that are usefull for other blockchain application:
+### `npm test`
 
-1. Install ethers: `npm i ethers`
-2. Install jwt-decode: `npm i jwt-decode`
-3. Install crypto-js for hashing pdf: `npm i crypto-js`
-4. Communicate with our mongodb database with nodejs: `npm i axios`
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Add in package.json for some errors:
+### `npm run build`
 
-```javascript
-  "devDependencies": {
-    "react-error-overlay": "^6.0.9"
-  }
-```
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-**IMPORTANT LINKS**
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-1. Sha256 pdf files before storing them in blockchain: https://www.youtube.com/watch?v=hVpP3nhnyVQ&t=356s
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Install Truffle
+### `npm run eject`
 
-1. Create truffle project: `truffle init`
-2. Compile canisters: `truffle compile`
-3. Migrate canisters: `truffle migrate`
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-if first time:
-truffle migrate --network matic
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Truffle-config.js file
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-```javascript
-module.exports = {
-  networks: {
-    development: {
-      host: "127.0.0.1",
-      port: 7545,
-      network_id: "*",
-      //from: "0x09dc039Cc695386e5F900db651e4142acE2Be682",
-    },
-  },
-  compilers: {
-    solc: {
-      version: "0.8.5",
-      optimizer: {
-        enabled: true,
-        runs: 200,
-      },
-    },
-  },
-};
-```
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Use Polygon Network
+## Learn More
 
-```javascript
-    matic: {
-      provider: () =>
-        new HDWalletProvider(
-          process.env.MNEMONIC,
-          `https://rpc-mumbai.matic.today`
-        ),
-      network_id: 80001,
-      confirmations: 2,
-      timeoutBlocks: 200,
-      skipDryRun: true,
-      gas: 6000000,
-      gasPrice: 35000000000,
-    },
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-1. Create truffle project: `truffle init`
-2. Compile canisters: `truffle compile`
-3. Migrate canisters: `truffle migrate --network matic --reset`
-
-**IMPORTANT LINKS**:
-
-1. How to deploy on polygon network: https://www.youtube.com/watch?v=fzmW8IbstRY
-2. Exaples with polygon and not only network: https://learn.figment.io/tutorials/deploying-and-debugging-smart-contracts-on-polygon
-
-## Centralized Back End - Metamask Connection Signature
-
-Some kind of applications should need a login with metamask in a centralized database. This application needs this kind of implementation.
-
-1. Install all packages in backend folder: `npm install`
-2. Start server with: `node server`
-
-In `.env` file someone could find the API of my mongodb database that was created for this application.
-
-On the other hand `server.js` enstablish the connection with that database.
-
-**IMPORTANT LINKS**: https://github.com/amaurym/login-with-metamask-demo
-
-# Import Ganache to Metamask
-
-1. Open Ganache and get the information
-2. Open Metamask
-3. Choose add a network
-4. Add RPC server of metamask
-5. Add the chainId: `1337`
-6. Click import account
-7. Import private key from Ganache
-
-# Deploy on real network
-
-I could use just the Remix IDE and deploy my contract directly on polygon mainet. After that I could follow the link of the transaction and get the abi and the contract address.
-<br/> Here we can share our code: https://mumbai.polygonscan.com/verifyContract
+To learn React, check out the [React documentation](https://reactjs.org/).
