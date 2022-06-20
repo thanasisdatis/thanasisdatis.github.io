@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd29e70d.chunk.css",
-    "main.js": "/static/js/main.d06d4f6d.chunk.js",
-    "main.js.map": "/static/js/main.d06d4f6d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.182ba859.js",
-    "runtime-main.js.map": "/static/js/runtime-main.182ba859.js.map",
-    "static/css/2.d344b5ea.chunk.css": "/static/css/2.d344b5ea.chunk.css",
-    "static/js/2.ef8f554c.chunk.js": "/static/js/2.ef8f554c.chunk.js",
-    "static/js/2.ef8f554c.chunk.js.map": "/static/js/2.ef8f554c.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.d344b5ea.chunk.css.map": "/static/css/2.d344b5ea.chunk.css.map",
-    "static/css/main.bd29e70d.chunk.css.map": "/static/css/main.bd29e70d.chunk.css.map",
-    "static/js/2.ef8f554c.chunk.js.LICENSE.txt": "/static/js/2.ef8f554c.chunk.js.LICENSE.txt",
-    "static/media/DigitalSystems.4f3a1e60.png": "/static/media/DigitalSystems.4f3a1e60.png",
-    "static/media/THESSALY.c5ac18b1.svg": "/static/media/THESSALY.c5ac18b1.svg",
-    "static/media/UTH-logo-english.5746d79d.png": "/static/media/UTH-logo-english.5746d79d.png"
+    "main.css": "/uth-test/static/css/main.bd29e70d.chunk.css",
+    "main.js": "/uth-test/static/js/main.7a5f1188.chunk.js",
+    "main.js.map": "/uth-test/static/js/main.7a5f1188.chunk.js.map",
+    "runtime-main.js": "/uth-test/static/js/runtime-main.ac5d69df.js",
+    "runtime-main.js.map": "/uth-test/static/js/runtime-main.ac5d69df.js.map",
+    "static/css/2.d344b5ea.chunk.css": "/uth-test/static/css/2.d344b5ea.chunk.css",
+    "static/js/2.2a9934cf.chunk.js": "/uth-test/static/js/2.2a9934cf.chunk.js",
+    "static/js/2.2a9934cf.chunk.js.map": "/uth-test/static/js/2.2a9934cf.chunk.js.map",
+    "index.html": "/uth-test/index.html",
+    "static/css/2.d344b5ea.chunk.css.map": "/uth-test/static/css/2.d344b5ea.chunk.css.map",
+    "static/css/main.bd29e70d.chunk.css.map": "/uth-test/static/css/main.bd29e70d.chunk.css.map",
+    "static/js/2.2a9934cf.chunk.js.LICENSE.txt": "/uth-test/static/js/2.2a9934cf.chunk.js.LICENSE.txt",
+    "static/media/DigitalSystems.4f3a1e60.png": "/uth-test/static/media/DigitalSystems.4f3a1e60.png",
+    "static/media/THESSALY.c5ac18b1.svg": "/uth-test/static/media/THESSALY.c5ac18b1.svg",
+    "static/media/UTH-logo-english.5746d79d.png": "/uth-test/static/media/UTH-logo-english.5746d79d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.182ba859.js",
+    "static/js/runtime-main.ac5d69df.js",
     "static/css/2.d344b5ea.chunk.css",
-    "static/js/2.ef8f554c.chunk.js",
+    "static/js/2.2a9934cf.chunk.js",
     "static/css/main.bd29e70d.chunk.css",
-    "static/js/main.d06d4f6d.chunk.js"
+    "static/js/main.7a5f1188.chunk.js"
   ]
 }
